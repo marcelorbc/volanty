@@ -1,0 +1,18 @@
+{
+  "name": "volanty-services",
+  "version": "1.0.0",
+  "description": "Serviços de acesso a negocios isolando a camada de api dos serviços de negociois ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Bueno",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "mongoose": "^5.2.1",
+    "mongoose-paginate": "^5.0.3",
+    "node-cron": "^1.2.1"
+  }
+}

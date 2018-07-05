@@ -8,12 +8,12 @@ db.once('open', function() {
 });
 
 var kittySchema = mongoose.Schema({
-    name: String
-  });
+  name: String
+});
 
-  var Kitten = mongoose.model('Kitten', kittySchema);
+var Kitten = mongoose.model('Kitten', kittySchema);
 
-  var silence = new Kitten({ name: 'Silence' });
+var silence = new Kitten({ name: 'Silence' });
 console.log(silence.name); // 'Silence'
 
 // NOTE: methods must be added to the schema before compiling it with mongoose.model()

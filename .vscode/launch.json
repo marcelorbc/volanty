@@ -7,6 +7,18 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Start Server API",
+            "program": "${workspaceFolder}/volanty-api/bin/www"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Teste Services",
+            "program": "${workspaceFolder}/volanty-services/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Teste Mongoosse",
             "program": "${workspaceFolder}/volanty-api\\teste.js"
         }
